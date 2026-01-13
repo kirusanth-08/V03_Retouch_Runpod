@@ -1,0 +1,6 @@
+{
+  "input": {
+    "input_image": "https://example.com/portrait.jpg",
+    "prompt": "blemishes, wrinkles"
+  }
+}
