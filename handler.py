@@ -126,14 +126,6 @@ def create_workflow_template(input_image_name="input.jpg", prompt="", seed=0, st
             "class_type": "APersonFaceLandmarkMaskGenerator",
             "_meta": {"title": "A Person Face Landmark Mask Generator"}
         },
-        "43": {
-            "inputs": {
-                "any_01": ["52", 0],
-                "any_02": ["92", 1]
-            },
-            "class_type": "Any Switch (rgthree)",
-            "_meta": {"title": "Any Switch (rgthree)"}
-        },
         "44": {
             "inputs": {
                 "value": 0.9,
@@ -394,7 +386,7 @@ def create_workflow_template(input_image_name="input.jpg", prompt="", seed=0, st
                 "x": 0,
                 "y": 0,
                 "operation": "multiply",
-                "destination": ["43", 0],
+                "destination": ["52", 0],
                 "source": ["44", 0]
             },
             "class_type": "MaskComposite",
